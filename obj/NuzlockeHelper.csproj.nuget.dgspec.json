@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\NuzlockeHelper.csproj": {}
+    "C:\\Users\\lars_\\Downloads\\NuzlockeHelper-main\\NuzlockeHelper-main\\NuzlockeHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\NuzlockeHelper.csproj": {
+    "C:\\Users\\lars_\\Downloads\\NuzlockeHelper-main\\NuzlockeHelper-main\\NuzlockeHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\NuzlockeHelper.csproj",
+        "projectUniqueName": "C:\\Users\\lars_\\Downloads\\NuzlockeHelper-main\\NuzlockeHelper-main\\NuzlockeHelper.csproj",
         "projectName": "NuzlockeHelper",
-        "projectPath": "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\NuzlockeHelper.csproj",
+        "projectPath": "C:\\Users\\lars_\\Downloads\\NuzlockeHelper-main\\NuzlockeHelper-main\\NuzlockeHelper.csproj",
         "packagesPath": "C:\\Users\\lars_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\obj\\",
+        "outputPath": "C:\\Users\\lars_\\Downloads\\NuzlockeHelper-main\\NuzlockeHelper-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lars_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
