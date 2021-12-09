@@ -36,3 +36,9 @@ C:\Users\lars_\Downloads\NuzlockeHelper-main\NuzlockeHelper-main\bin\Debug\net5.
 C:\Users\lars_\Downloads\NuzlockeHelper-main\NuzlockeHelper-main\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\lars_\Downloads\NuzlockeHelper-main\NuzlockeHelper-main\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\lars_\Downloads\NuzlockeHelper-main\NuzlockeHelper-main\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
