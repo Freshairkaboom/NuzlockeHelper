@@ -9,7 +9,7 @@ namespace NuzlockeHelper
         {
             /*
              * The Nuzlocke Helper should take a state of current Nuzlocke challenge and reveal useful information to the player.
-             * The NUzlocke Helper should also take input from user about the current state of the game to change the information displayed.
+             * The Nuzlocke Helper should also take input from user about the current state of the game to change the information displayed.
              *
              * Features/information displayed should include:
              * - Max level your Pokémon can have in this part of the game.

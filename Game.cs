@@ -8,7 +8,6 @@ namespace NuzlockeHelper
 {
     public class Game
     {
-
         public bool IsRunning { get; }
 
         private CommandList _commands;
@@ -26,7 +25,7 @@ namespace NuzlockeHelper
 
             _stages = new Stages(0, 10);
             IsRunning = true;
-            /**Initalize list of _commands that can be used by the game. To dev: Only ever add or remove _commands in CommandList.*/
+            /*Initialize list of _commands that can be used by the game. To dev: Only ever add or remove _commands in CommandList.*/
             _commands = new CommandList();
             AddRulesForGame();
             GameplayLoop();
@@ -35,7 +34,6 @@ namespace NuzlockeHelper
         private void AddRulesForGame()
         {
             bool IsDone = false;
-            bool IsInt;
             int intCommand = 0;
 
             while (!IsDone)
@@ -51,6 +49,7 @@ namespace NuzlockeHelper
                     return;
                 }
 
+                bool IsInt;
                 if (command.Length == 1) IsInt = int.TryParse(command, out intCommand);
                 else IsInt = false;
 
@@ -101,7 +100,7 @@ namespace NuzlockeHelper
 
             if (_stages.CurrentStage > 0)
             {
-                foreach (Command _command in _commands.Commands)
+                foreach (var _command in _commands.Commands)
                 {
                     if (_command.CommandName == command.ToLower())
                     {
