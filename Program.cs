@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
+using Dapper;
 
 namespace NuzlockeHelper
 {
@@ -18,9 +20,14 @@ namespace NuzlockeHelper
              * - A way to store this information between sessions in a database (low priority).
              */
 
+            //StoreData database = new(@"Data Source=(localdb)\MSSQLLocalDB;
+            //                      Initial Catalog=NuzlockeHelperStorage;
+            //                      Integrated Security=True;");
+
             SClassReference.Instance = new SClassReference();
 
             var game = new Game();
+            game.Run().Wait();
         }
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ni+ssjXW6fZS8UIgXErKaE9rBvqVwrGo2afBs9L1fdq0bVwki7Xo7/DfYyX0OKets+ZfncTo2B7ZqUAtcgGfTQ==",
+  "dgSpecHash": "EUXahg8QnXGmnNvclLcsGxUzCycVbJ3pVKcuzKXZN0AZ12ou4rzG53VDD07nJTZg/d8I/1HgT66T9RlXM0tuBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lars_\\source\\repos\\NuzlockeHelper\\NuzlockeHelper\\NuzlockeHelper.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lars_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\lars_\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lars_\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\lars_\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

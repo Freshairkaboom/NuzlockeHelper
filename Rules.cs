@@ -41,5 +41,16 @@ namespace NuzlockeHelper
             }
             else RunCommand();
         }
+
+        /*Methods related to saving FinalRules list info. */
+
+        //public async Task SaveFinalRules(StoreData data)
+        //{
+        //    await data.CheckIfNoRoutesStored(FinalRules);
+        //}
+        public async Task SaveRules(StoreData data)
+        {
+            await data.CheckIfNoRulesStored(FinalRules);
+        }
     }
 }

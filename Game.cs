@@ -16,17 +16,26 @@ namespace NuzlockeHelper
 
         private Stages _stages;
 
-        private SaveController ctrl { get; set; }
+        private StoreData data;
 
         public Game()
         {
-            /*This controller is used to make requests from database.*/
-            ctrl = new(@"(localdb)\MSSQLLocalDB", "SQLEXPRESS");
-
             _stages = new Stages(0, 10);
             IsRunning = true;
             /*Initialize list of _commands that can be used by the game. To dev: Only ever add or remove _commands in CommandList.*/
             _commands = new CommandList();
+            data = new(@"Data Source=(localdb)\MSSQLLocalDB;
+                                  Initial Catalog=NuzlockeHelperStorage;
+                                  Integrated Security=True;");
+ 
+        }
+
+        public async Task Run()
+        {
+            await _commands.CloseRoute.SaveRoutes(data);
+            await _commands.Rules.SaveRules(data);
+            await _stages.SaveStages(data);
+            Console.Read();
             AddRulesForGame();
             GameplayLoop();
         }

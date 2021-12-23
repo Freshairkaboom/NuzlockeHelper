@@ -5,7 +5,6 @@ C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\Nuzlo
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\NuzlockeHelper.dll
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\ref\NuzlockeHelper.dll
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\NuzlockeHelper.pdb
-C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\obj\Debug\net5.0\NuzlockeHelper.csproj.AssemblyReference.cache
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\obj\Debug\net5.0\NuzlockeHelper.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\obj\Debug\net5.0\NuzlockeHelper.AssemblyInfoInputs.cache
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\obj\Debug\net5.0\NuzlockeHelper.AssemblyInfo.cs
@@ -42,3 +41,5 @@ C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runti
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\bin\Debug\net5.0\Dapper.dll
+C:\Users\lars_\source\repos\NuzlockeHelper\NuzlockeHelper\obj\Debug\net5.0\NuzlockeHelper.csproj.AssemblyReference.cache

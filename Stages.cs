@@ -51,5 +51,10 @@ namespace NuzlockeHelper
 
             return isRunning;
         }
+
+        public async Task SaveStages(StoreData data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
